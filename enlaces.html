@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Enlaces</title>
+</head>
+<body>
+    <!-- Enlaces: 
+    Conocidos también como links popularmente. Su objetivo es conectar una página web con otra.  
+            Conectar un recurso tanto interno como externo, o con otro sitio web.
+            
+            Tienen el atributo obligatorio href, donde le especificamos la ruta del recurso o sitio que deseamos obtener
+  
+        
+            También tiene el atributo target, que configura cómo queremos visualuzar el recurso o sitio que solicitemos.
+  
+  Rutas absolutas: Tienen un protocolo, http o https y son unicas en la red, se suelen utilizar para rutas externas.
+
+  Rutas relativas:  Pueden ser relativas al punto donde nos encontremos o relativas a la raíz del proyecto.
+                    
+                    No usan protocolo http o https 
+  
+                    Si el recurso se encuentra al mismo nivel (En la misma carpeta) podemos unicamente el nombre del archivo 
+
+  
+                    Si necesitamos salir de la carpeta actual usaremos ../ y se pone uno por cada nivel (carpeta) de la que queramos salir 
+
+
+
+  Atributos:
+
+  href: establecer la ruta de navegación (absoluta o relativa)
+
+  target:   se define donde se quiere abrir el recurso solicitado. Por norma general, siempre que se utilice 
+            rutas absolutas se recomienda colocar como valor "_blank"
+  
+  download: Atributo booleano, sirve para descargar el recurso solicitado. 
+            IMPORTANTE: el recurso debe estar en tu mismo servidor. -->
+    <main>
+        <header>
+            <h1>Paginas Lore Elden Ring</h1>
+        </header>
+        <section>
+            <a href="https://eldenring.wiki.fextralife.com/Lore">
+                <button>WIKI</button>
+            </a>
+            <header>
+                <h2>Peronajes</h2>
+            </header>
+            <article>
+                <a href="https://eldenring.wiki.fextralife.com/Melina" target="_blank">
+                    <button>MELINA</button>
+                </a>
+                <br>
+                <br>
+                <a href="https://eldenring.wiki.fextralife.com/Roderika">
+                    <button>RODERIKA</button>
+                </a>
+                <br>
+                <br>
+                <a href="https://eldenring.wiki.fextralife.com/Nepheli+Loux">
+                    <button>NEPHELI LOUX</button>
+                </a>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
